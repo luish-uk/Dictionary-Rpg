@@ -75,7 +75,7 @@ def hunt():
         try_again()
 def try_again():
     global inventory
-    try_again = input("\n\nWould ya like to continue?\n(y/n?) : ")
+    try_again = input("\n\nWould ya like to continue huntin'?\n(y/n?) : ")
     if try_again == 'n':
         play()
     elif try_again == 'y':
